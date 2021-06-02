@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	position: absolute;
+	background: #fff;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+}
+
+#canvas {
+	height: 50vmin;
+	width: 50vmin;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#face {
+	width: 20vmin;
+	height: 20vmin;
+	border: 1vmin solid #000;
+	left: 15vmin;
+	top: 20vmin;
+	border-radius: 5vmin;
+	border-bottom-right-radius: 15vmin;
+}
+
+#eye1 {
+	width: 5vmin;
+	height: 10vmin;
+	border: 1vmin solid #000;
+	border-radius: 5vmin;
+	left: 20vmin;
+	top: 15vmin;
+}
+
+#eye2 {
+	width: 5vmin;
+	height: 5vmin;
+	border: 1vmin solid #000;
+	border-radius: 5vmin;
+	top: 17.5vmin;
+	left: 30vmin;
+}
+
+#mouth {
+	width: 5vmin;
+	height: 10vmin;
+	border: 1vmin solid #000;
+	border-radius: 50%;
+	left: 27vmin;
+	top: 30vmin;
+}
+
+.pupil {
+	width: 0;
+	height: 0;
+	border: 1vmin solid #000;
+	border-radius: 50%;
+	top: 60%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+}
+
+#eyebrows1, #eyebrows2 {
+	width: 9vmin;
+	height: 9vmin;
+	background: rgba(0,0,0,0);
+	border-radius: 50%;
+	border: 1vmin solid #000;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+	left: 19vmin;
+	top: 12vmin;
+}
+
+#eyebrows2 {
+	left: 29vmin;
+	top: 14vmin;
+}
